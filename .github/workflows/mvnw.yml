@@ -1,6 +1,8 @@
 name: Regular dockstore build
 
-on: [push]
+on:
+  workflow_dispatch:
+  "push":
 
 jobs:
   build:
